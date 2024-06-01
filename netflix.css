@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/dd4dfce3-1a39-4b1a-8e19-b7242da17e68/86742114-c001-4800-a127-c9c89ca7bbe4/IN-en-20240527-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-position: center center;
+    /* background-size:max(1000px,100vw); */
+    height: 70vh;
+    position: relative;
+    background-repeat: no-repeat;
+
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.44;
+    top: 0;
+    position: absolute;
+    background-color: black;
+}
+
+nav {
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    width: 9.25rem;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+
+}
+
+
+.Manav2 {
+    height: calc(100% - 62px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    position: relative;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    gap: 23px;
+}
+
+.Manav2>:first-child {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.Manav2>:nth-child() {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Manav2>:nth-child() {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.seperation {
+    height: 3px;
+    background-color: rgb(62, 61, 61);
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: rgba(23, 23, 23, 0.2);
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-red1 {
+    background-color: red;
+    color: white;
+    border-radius: 7px;
+    padding: 3px 24px;
+    font-size: 20px;
+    cursor: pointer;
+
+
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 7px;
+    /* border-radius: 7px; */
+    cursor: pointer;
+
+
+}
+
+.main input {
+    border-radius: 7px;
+    padding: 3px 24px;
+    font-size: 20px;
+    background-color: rgba(23, 23, 23, 0.2);
+    color: white;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    color: white;
+    max-width: 70vw;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.image img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.image {
+    position: relative;
+}
+
+.image video {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 25vw;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 24px
+}
+
+.image2 img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.image2 {
+    position: relative;
+}
+
+.image2 video {
+    position: absolute;
+    top: 20px;
+    right: 105px;
+    width: 19vw;
+    left: 85px;
+    bottom: 0px;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 1s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 60vw;
+    margin: 34px auto;
+    cursor: pointer;
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 60px;
+}
+
+footer .questions {
+    padding: 34px 0;
+    cursor: pointer;
+}
+
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    line-height: 5rem;
+}
